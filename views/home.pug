@@ -1,0 +1,42 @@
+extends base.pug
+
+block script 
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+block content 
+    section#picture
+        div Welcome to Shiva Dance Academy 
+        div.small Eat Dance Sleep Repeat
+    section#mission
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/card_04.png")
+                div.card-content
+                    p This is the best dance academy in this world
+        div.card 
+            h3 Dance the way you Like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/card_02.png")
+                div.card-content
+                    p This is the best dance academy in this world
+        div.card 
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/card_03.png")
+                div.card-content
+                    p This is the best dance academy in this world
+    section#sponsor-section
+        h2 Our Sponsor
+        div#sponsors
+            img(src="/static/img/sponser_01.png", alt="Sponsor 01" class="sp-img")
+            img(src="/static/img/sponser_02.png", alt="Sponsor 02" class="sp-img")
+            img(src="/static/img/sponser_03.png", alt="Sponsor 03" class="sp-img")
+            img(src="/static/img/sponser_04.png", alt="Sponsor 04" class="sp-img")
+            img(src="/static/img/sponser_05.png", alt="Sponsor 05" class="sp-img")

@@ -1,0 +1,6 @@
+Name = Shivam 
+Email = javiashivamvanced1@gmail.com 
+Phone Number = +91 6353600208 
+Adress = Rajkot 
+Previous Dance Exp. = 2Years 
+Consern = What are the fees
